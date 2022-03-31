@@ -370,7 +370,7 @@ grid-template-columns: repeat(5,1fr);
 
 
 
-@media (min-width:320px){
+@media (max-width:2000px){
 .integrantes{
 
     background-color: white;
@@ -706,7 +706,269 @@ font-size: 70px;
     
    }
 
+   @media (min-width:320px){
+    .integrantes{
+    
+        background-color: white;
+        padding: 200px;
+        
+        padding-top: 50px;
+    }
+
+    .portada{
+        grid-column: 1/6;
+        text-align: center;
+        
+        
+        
+    }
    
+    
+    .integrantes article{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+       
+    }
+    
+    .tituloDisco{
+        
+        color:white;
+        text-align: center;
+        padding-bottom: 35px;
+        font-size: 80px;
+        letter-spacing: 3px;
+        
+    
+    
+    }
+    
+    /*Configuro mi galeria elegi utilizar ID simplemente para probar ya que no lo habia usado anteriormente*/
+    
+    #galeria{
+        margin: 0;
+        padding: 20px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #galeria li{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
+        position: relative;
+        overflow: hidden;
+        border: 5px solid white;
+        background: PaleGoldenrod;
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        box-shadow: 0 0 5px rgba(0,0,0,.6);
+    }
+    
+    #galeria li figure{
+        margin: 0;
+    }
+    
+    #galeria li h3{
+        font-size:xx-large;
+        margin: 0 0 10px;
+        transform: translateX(-300px);
+        opacity: 0;
+        transition: all 1.5s ease;
+    }
+    
+    #galeria li p{
+        font-size:large;
+        margin: 0;
+        transform: translateX(300px);
+        opacity: 0;
+        transition: all 1s ease;
+    }
+    
+    #galeria li:hover h3,
+    #galeria li:hover p{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+    #galeria li figure img{
+        width: 250px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+        transform: scale(1);
+        opacity: 1;
+        transition: all 1s ease;
+    }
+    
+    
+    
+    #galeria li:hover figure img{
+        transform: scale(10);
+        opacity: 0;
+    }
+    
+    /*Configuro mi formulario de Contacto*/
+    .contenedorContacto{
+        
+        box-shadow: 0 0 20px 0 rgba(255,255,255,.3);
+    }
+    
+    .contenedorContacto{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding:1.5em;
+        
+    }
+        
+    
+    
+    
+    .contenedorForm{
+        box-shadow: 0 0 20px 0 rgba(255,255,255,.3);
+        background: #222222;
+    
+    }
+    /*Eligo todos los elementos dentro del contenedor apra darles mismo diseño*/
+    .contenedorForm h3{
+        color:rgb(175, 241, 88);
+        font-size: xx-large;
+    }
+    
+    .contenedorForm > *{
+        padding:1em;
+        color: white;
+        font-size: x-large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .contactInfo{
+        padding-top: 20px;
+        color:black;
+        
+        font-size: medium;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .contactInfo img{
+        width:20px;
+    }
+    
+    
+    /*A todos los elementos de mi contenedor les doy el mismo diseño*/
+    .contenedorForm form button,
+    .contenedorForm form input,
+    .contenedorForm form textarea{
+        width:100%;
+        padding: .7em;
+        border:none;
+        background: none;
+        outline:0;
+        color:#fff;
+        border-bottom: 1px solid rgb(175, 241, 88);;
+    }
+    
+    .contenedorForm form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    
+    }
+    
+    
+    
+    .contenedorForm p{
+        margin: 0;
+        padding:2em;
+    }
+    
+    .contenedorForm .areaMensaje{
+    
+        grid-column: 1/3;
+    }
+    
+    .contenedorForm form button{
+        background-color: rgb(175, 241, 88);;
+        color:black;
+        border:0;
+        text-transform: uppercase;
+        padding:1em;
+    }
+    
+    .contenedorForm form button:hover,
+    .contenedorForm form button:focus{
+        background:#fff;
+        color:black;
+        transition:background-color 1s ease-out;
+        outline:0;
+    
+    }
+    
+    
+    
+    .contactInfo ul li{
+        
+        padding: .5em;
+    }
+    
+    .contactInfo ul{
+        list-style: none;
+        padding: 0;
+    }
+    
+    .contactInfo 
+    
+    .contactInfo h4,
+    .contactInfo ul 
+    .contactInfo p{
+    text-align: center;
+    margin:0 0 1rem 0;
+    }
+    
+    .mainHistoria{
+        width:100%;
+        max-width: 1000px;
+        margin:auto;
+        padding: 60px;
+        background-color:black;
+        margin-top: 100px;
+        border-top:6px solid rgb(175, 241, 88);
+        border-bottom:6px solid rgb(175, 241, 88);
+    }
+    .mainHistoria p{
+        color:rgb(175, 241, 88);;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .mainHistoria img{
+        width:400px;
+        float:left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .tituloHistoria{
+        color:rgb(175, 241, 88);
+        font-family: 'Courier New', Courier, monospace;
+    }   
+    
+    .mapa h1{
+        padding:30px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: x-large;
+    }
+    
+    }
 
 }
 
