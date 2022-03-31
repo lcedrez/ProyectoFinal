@@ -97,8 +97,21 @@ grid-template-columns: repeat(5,1fr);
     width: 100%;
     
     padding-right: 115px;
+    filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    -khtml-opacity: 0.5;
+       
+    }
      
+.portada img:hover img {
+        filter:alpha(opacity=100);  
+        -moz-opacity: 1.0;  
+        opacity: 1.0;
+        -khtml-opacity: 1.0; 
 }
+     
+
 
 .contenedor {
     background-color: black;
@@ -342,6 +355,17 @@ grid-template-columns: repeat(5,1fr);
     width:200px;
     padding-top: 3px;
     margin: 5px;
+    overflow: hidden;
+}
+/*Efecto en Logo*/
+.box__imagen img:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px white;
+    -webkit-box-shadow: 0px 0px 15px 15px white;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+
 }
 .red-social{
     background-color: black;
@@ -606,6 +630,10 @@ margin:0 0 1rem 0;
     margin-right: 20px;
     margin-bottom: 20px;
 
+}
+
+.mainHistoria img:hover{
+    filter: sepia(60%);
 }
 
 .tituloHistoria{
