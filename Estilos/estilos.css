@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+.navbar-brand img{
+    width: 50px;
+    height: 55px;
+}
 
 
 body{
-
+    margin:0;
+    padding: 0;
     background-color: black;
     overflow-x: hidden;
     font-family: 'League Gothic', sans-serif;
@@ -17,7 +22,99 @@ body{
 }
 /*Configuro el Header*/
 
+.tituloQsomos{
+    color: white;
+}
+    
+.parrafoQsomos{
+    color: white;
+    letter-spacing: 1.5px;
+}
+.titulovideo{
+    color:white;
+    
+}
 
+
+/*Boostrap*/
+
+
+main{
+    padding-top: 20px;;
+}
+
+footer .list-group-item{
+    border:0;
+    background:transparent;
+    }
+    
+    div.visible-xs-block
+    {
+            background:maroon;
+            color:white;
+            font-family:"Tahoma" serif;
+            padding:1em;
+        }
+        
+        footer{
+            background:#000;
+            color:white;
+           height:auto;
+            }
+        
+
+.row{
+    flex-direction: column;
+    background-color: black;
+}
+
+.row img{
+    width: 200px;
+}
+
+.item img{
+    width: 200px;
+}
+
+.card img{
+    width: 200px;
+    
+}
+
+.menu-bar{
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.menu-bar a {
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 25px;
+    letter-spacing: 1px;
+}
+
+
+
+.navbar-nav a{
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 25px;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
 
 .header nav{
     
@@ -29,6 +126,12 @@ body{
     align-content: center;
     
 }
+
+
+
+
+
+
 
 /*Estilos del menu de Navegacion*/
 .header nav ul{
@@ -111,18 +214,26 @@ grid-template-columns: repeat(5,1fr);
         -khtml-opacity: 1.0; 
 }
      
-
-
+header{
+    background-color: black;
+    padding-top: 25px;
+}
 .contenedor {
     background-color: black;
 }
+.container img{
+    width:150px;
+    
+}
+
+
 
 
 .header,
 .contenedor .footer{
     width:100%;
     grid-column: 1/6;
-    background-color:black;
+    background-color:rgb(204, 53, 53);
     color: brown;
 }
 
@@ -218,68 +329,6 @@ grid-template-columns: repeat(5,1fr);
 }
 
 
-.historia__contenedor{
-    
-    background-color: rgb(175, 241, 88);
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-
-   
-    
-    
-}
-
-.historia__img img{
-    
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.historia__contenedor div{
-    width:600px;
-    height: 700px;
-    background-color:black;
-    margin: 30px;
-    font-size: 25px;
-   
-    
-    
-}
-
-.historia__contenedor h1{
-    font-family: 'Courier New', Courier, monospace;
-    color:  rgb(175, 241, 88);
-    text-align: center;
-    padding-top: 30px;
-    
-}
-
-.historia__contenedor p{
-    padding: 60px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color:  rgb(175, 241, 88);
-    
-}
-.historia__contenedor h1{
-    font-family: 'Courier New', Courier, monospace;
-    color:  rgb(175, 241, 88);
-    text-align: center;
-    padding-top: 30px;
-    
-}
-
-.historia__contenedor p{
-    padding: 60px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color:  rgb(175, 241, 88);
-    
-}
 
 /*Pie de Pagina*/
 .pie-pagina{
@@ -419,6 +468,73 @@ grid-template-columns: repeat(5,1fr);
 
 }
 
+
+.historia__contenedor{
+    
+    background-color: rgb(175, 241, 88);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+   
+    
+    
+}
+
+.historia__img img{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.historia__contenedor div{
+    width:600px;
+    height: 700px;
+    background-color:black;
+    margin: 30px;
+    font-size: 25px;
+   
+    
+    
+}
+
+.historia__contenedor h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(175, 241, 88);
+    text-align: center;
+    padding-top: 30px;
+
+    
+}
+
+.historia__contenedor p{
+    padding: 60px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(175, 241, 88);
+    height: auto;
+    word-wrap: break-word;
+}
+.historia__contenedor h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(175, 241, 88);
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+
+
+.historia__contenedor p{
+    padding: 20px;
+    text-align:start;
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(175, 241, 88);
+    
+}
 /*Configuro mi galeria elegi utilizar ID simplemente para probar ya que no lo habia usado anteriormente*/
 
 #galeria{
@@ -630,6 +746,7 @@ margin:0 0 1rem 0;
     margin-right: 20px;
     margin-bottom: 20px;
 
+
 }
 
 .mainHistoria img:hover{
@@ -768,6 +885,72 @@ font-size: 70px;
     
     }
     
+.historia__contenedor{
+    
+    background-color: rgb(175, 241, 88);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+   
+    
+    
+}
+
+.historia__img img{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.historia__contenedor div{
+    width:600px;
+    height: 700px;
+    background-color:black;
+    margin: 30px;
+    font-size: 25px;
+   
+    
+    
+}
+
+.historia__contenedor h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(175, 241, 88);
+    text-align: center;
+    padding-top: 30px;
+
+    
+}
+
+.historia__contenedor p{
+    padding: 60px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(175, 241, 88);
+    height: auto;
+    word-wrap: break-word;
+}
+.historia__contenedor h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(175, 241, 88);
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+
+
+.historia__contenedor p{
+    padding: 20px;
+    text-align:start;
+    font-family: 'Courier New', Courier, monospace;
+    color:      rgb(175, 241, 88);
+    
+}
     /*Configuro mi galeria elegi utilizar ID simplemente para probar ya que no lo habia usado anteriormente*/
     
     #galeria{
@@ -992,7 +1175,8 @@ font-size: 70px;
         letter-spacing: 2px;
         font-size: x-large;
     }
-    
+
+  
     }
 
 }

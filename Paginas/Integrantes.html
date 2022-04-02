@@ -10,27 +10,52 @@
     <title>Integrantes</title>
 </head>
 <body>
-    <div class="contenedor">
+    <div class="container-fluid">
+    
 
-        <header class="header">
-                
-            <nav class="navegacion">
-                <div class="box__imagen">
-                    <a href="#">
-                        <img src="../Imagenes/Whitelogo.jpg" alt="The Beatles">
-                    </a>
+        <header>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#"><img src="../Imagenes/The_Beatles_logo.svg" alt=""></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../Paginas/QuienesSomos.html">Quienes Somos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../Paginas/Integrantes.html">Integrantes    </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../Paginas/Historia.html">Historia</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../Paginas/Discografia.html">Discografía</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../Paginas/Contacto.html">Contacto</a>
+                              </li>
+                              
+                             
+                            </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                              <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                          </div>
+                        </div>
+                      </nav>
                 </div>
-                 <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../Paginas/QuienesSomos.html">Quienes Somos</a></li>
-                    <li><a href="../Paginas/Integrantes.html">Integrantes</a></li>
-                    <li><a href="../Paginas/Historia.html">Historia</a></li>    
-                    <li><a href="../Paginas/Discografia.html">Discografía</a></li>
-                    <li><a href="../Paginas/Contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
         </header>
-    </div> 
+    
         <main>
             <section class='integrantes'>
                 <h2>THE FAB FOUR</h2>
@@ -117,5 +142,6 @@
                     <small>&copy; 2022 <b>Apple Records</b> - Todos los Derechos Reservados.</small>
                 </div>
             </footer>
+    </div>
 </body>
 </html>
