@@ -9,7 +9,10 @@
     height: 55px;
 }
 
-
+aside{
+    background-image: url(../Imagenes/PaulAndJohn.jpg);
+    text-align: center;
+}
 body{
     margin:0;
     padding: 0;
@@ -39,6 +42,7 @@ body{
 /*Boostrap*/
 
 
+
 main{
     padding-top: 20px;;
 }
@@ -63,10 +67,6 @@ footer .list-group-item{
             }
         
 
-.row{
-    flex-direction: column;
-    background-color: black;
-}
 
 .row img{
     width: 200px;
@@ -154,9 +154,9 @@ footer .list-group-item{
 
 
 .box__imagen img{
-    width: 100px;
-    padding-top: 10px;
-    position: inherit;
+    width: 60px;
+    height: 80px;
+   
     
     
 }
