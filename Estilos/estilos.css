@@ -7,11 +7,15 @@
 .navbar-brand img{
     width: 50px;
     height: 55px;
+    
 }
 
+
+
 aside{
-    background-image: url(../Imagenes/PaulAndJohn.jpg);
+    background-image: url(../Imagenes/Beatleslos4.jpg);
     text-align: center;
+
 }
 body{
     margin:0;
@@ -23,15 +27,46 @@ body{
 .mainContacto{
     background-color: aliceblue;
 }
+
+.historia__contenedorNews{
+    background-color: rgb(175, 241, 88);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
 /*Configuro el Header*/
+
+header{
+    
+    width: 100%;
+   padding-bottom: 10px;
+   position:relative;
+
+}
+
+
+
+
 
 .tituloQsomos{
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
     
 .parrafoQsomos{
     color: white;
     letter-spacing: 1.5px;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+font-weight: bolder;
+
 }
 .titulovideo{
     color:white;
@@ -41,8 +76,30 @@ body{
 
 /*Boostrap*/
 
-.historia__parrafo2{
-    background-image: url(../Imagenes/guitarras.jpg);
+.card-img-top{
+    width: 200px;
+}
+
+
+
+.carousel-inner{
+ height: 500px;
+}
+
+.tituloNews {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    letter-spacing: 1.5px;
+}
+
+.card img{
+    align-items: center;
+}
+
+.historia__parrafo2{   
+    background-image: url(../Imagenes/guitarras.jpg);     
 }
 
 
