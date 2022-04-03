@@ -41,6 +41,9 @@ body{
 
 /*Boostrap*/
 
+.historia__parrafo2{
+    background-image: url(../Imagenes/guitarras.jpg);
+}
 
 
 main{
@@ -66,7 +69,10 @@ footer .list-group-item{
            height:auto;
             }
         
-
+.contacto img{
+    width: 500px;
+ background-color: red  ;
+}
 
 .row img{
     width: 200px;
