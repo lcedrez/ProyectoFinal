@@ -92,6 +92,46 @@ header {
     letter-spacing: 1px;
     font-size: large; }
 
+.blue {
+  color: blue; }
+
+.green {
+  color: green; }
+
+.yellow {
+  color: yellow; }
+
+.black {
+  color: black; }
+
+.red {
+  color: red; }
+
+.btntwitter {
+  background-color: blue; }
+
+.btnfacebook {
+  background-color: green; }
+
+.btninstagram {
+  background-color: red; }
+
+.btnwhatsapp {
+  background-color: green; }
+
+.mainHistoria {
+  background-color: gray;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  margin-top: 100px;
+  border-top: 6px solid #aff158;
+  border-bottom: 6px solid #aff158; }
+
+.mainHistoria p {
+  color: #687557; }
+
 .carousel-inner {
   height: 500px; }
 
@@ -244,12 +284,13 @@ header {
   max-width: 1000px;
   margin: auto;
   padding: 60px;
-  background-color: black;
+  background-color: gray;
   margin-top: 100px;
   border-top: 6px solid #aff158;
   border-bottom: 6px solid #aff158; }
+
   .mainHistoria p {
-    color: #aff158;
+    color: rgb(104, 117, 87);
     font-size: 20px;
     font-weight: 300;
     font-family: 'Courier New', Courier, monospace; }
