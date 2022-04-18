@@ -20,6 +20,8 @@ $redes:(
 
 }
 
+/*MAPS MAP-GET*/
+
 $estilos:(
 tam:100%,
 tammax:1000px,
@@ -47,6 +49,41 @@ bordeAbajo: 6px solid rgb(175, 241, 88)
 .mainHistoria p{
     color:map-get($estilos,colorFuente);
 }
+
+/*EXTEND*/
+.box{
+    width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+}
+
+.box_especial {
+    @extend .box;
+    color:black;
+    font-size: 20px;
+    border:2px solid black;
+    text-align: center;
+
+}
+
+/*MIXIN*/
+
+@mixin flexbox($flex,$wrap,$justify){
+    display: $flex;
+    flex-wrap:$wrap;
+    justify-content: $justify;
+}
+
+.galeria{
+    @include flexbox(flex,wrap,space-between)
+
+}
+
 
 
 
