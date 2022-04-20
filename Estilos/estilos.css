@@ -26,7 +26,12 @@
     transform:scale(2);
 }
 
-
+.asideHistoria{
+    background-image: url(../Imagenes/fondo1366x768.jpg);
+    text-align: center;
+    position:relative;
+    
+}
 
 aside{
     background-image: url(../Imagenes/Fondo6C.jpg);
@@ -121,10 +126,21 @@ header{
 
 
 .tituloQsomos{
-    color: gray;
+    color: rgb(10, 10, 10);
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     font-weight: bolder;
+}
+
+.parrafoHistoria{
+    color: rgb(24, 23, 23);
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 20px;
 }
     
 .parrafoQsomos{
@@ -135,6 +151,7 @@ header{
     font-weight: lighter;
     font-weight: bolder;
     text-align: center;
+    padding-left: 20px;
     
 
 }
@@ -476,6 +493,7 @@ header{
 }
 .pie-pagina .grupo-1 .box figure img{
     width: 250px;
+    
 }
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
@@ -586,6 +604,21 @@ header{
     
 
 
+}
+
+
+.asideHistoria{
+    background-image: url(../Imagenes/fondo1366x768.jpg);
+    text-align: center;
+    position:relative;
+    
+}
+
+aside{
+    background-image: url(../Imagenes/Fondo6C.jpg);
+    text-align: center;
+    position:sticky;
+ 
 }
 
 
@@ -851,8 +884,7 @@ margin:0 0 1rem 0;
 }
 
 .mainHistoria{
-    width:100%;
-    max-width: 1000px;
+   
     margin:auto;
     padding: 60px;
     background-color:black;
@@ -973,6 +1005,20 @@ font-size: 70px;
     grid-column: 1/-1;
     
    }
+   
+.asideHistoria{
+    background-image: url(../Imagenes/fondo1366x768.jpg);
+    text-align: center;
+    position:relative;
+    
+}
+
+aside{
+    background-image: url(../Imagenes/Fondo6C.jpg);
+    text-align: center;
+    position:sticky;
+ 
+}
 
    @media (min-width:320px){
     .integrantes{
@@ -990,6 +1036,21 @@ font-size: 70px;
         
         
     }
+
+    
+.asideHistoria{
+    background-image: url(../Imagenes/fondo1366x768.jpg);
+    text-align: center;
+ 
+    
+}
+
+aside{
+    background-image: url(../Imagenes/Fondo6C.jpg);
+    text-align: center;
+    position:sticky;
+ 
+}
    
     
     .integrantes article{
@@ -1011,6 +1072,9 @@ font-size: 70px;
     
     }
     
+  
+
+
 .historia__contenedor{
     
     background-color: rgb(175, 241, 88);
@@ -1140,6 +1204,11 @@ font-size: 70px;
         transform: scale(1);
         opacity: 1;
         transition: all 1s ease;
+        
+          
+        
+            
+        
     }
     
     
