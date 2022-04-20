@@ -13,7 +13,22 @@
 /*-----------------------------------------------------*/
 
 
-.container-all{
+.imgQS{
+    
+    max-width:700px;
+    float:right;
+
+}
+
+.container-all-hist p{
+    font-family: "Open Sans", sans-serif;
+    font-size: large;
+
+
+}
+
+
+.container-all {
     width: 100%;
     max-width: 1000px;
     margin:auto;
@@ -21,35 +36,22 @@
     background-color:#d1cfcf ;
     margin-top: 100px;
     opacity: 0.9;
-  
-    
-    
-    
-
-    
-   
-
 }
 
 
-
-
-
-.Ringo{
-    max-width:600px;
-}
-.George{
-    max-width:600px;
-   
-}
-
-.lennon{
-    max-width:600px;
+.container-all-hist {
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    padding: 60px;
+    background-color:#d1cfcf ;
+    margin-top: 100px;
+    opacity: 0.9;
+    padding-top: 0;
+    padding-bottom: 220px;
 }
 
-.Paul{
-    max-width:600px;
-}
+
 
 
 .container-all img{
@@ -59,6 +61,7 @@
 }
 
 .container-all p{
+    
     font-family: "Open Sans", sans-serif;
 }
 
@@ -87,14 +90,7 @@
     position:relative;
     
 }
-/*
-aside{
-    background-image: url(../Imagenes/Fondo6C.jpg);
-    text-align: center;
-    position:sticky;
- 
-}
-*/
+
 
 aside:hover{
 
@@ -202,10 +198,22 @@ header{
 
 
 
+.bodyHistoria   {
+    background-image: url(../Imagenes/vinilos.jpg);
+    background-attachment: fixed;
+}
+
 .bodyIntegrantes{
     background-image: url(../Imagenes/Fondo3.jpg);
     background-attachment: fixed;
 }
+.quienSomos{
+    background-image: url(../Imagenes/AzoteaI.jpg);
+    background-attachment: fixed;
+}
+
+
+
 
 
 
@@ -248,8 +256,9 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 35px;
+    padding: 15px;
     letter-spacing: 1.5px;
+    opacity: 0.8;
 }
 
 .card img{
