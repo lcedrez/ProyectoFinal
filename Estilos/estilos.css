@@ -20,6 +20,12 @@
     padding: 60px;
     background-color:#d1cfcf ;
     margin-top: 100px;
+    opacity: 0.9;
+  
+    
+    
+    
+
     
    
 
@@ -196,7 +202,10 @@ header{
 
 
 
-
+.bodyIntegrantes{
+    background-image: url(../Imagenes/Fondo3.jpg);
+    background-attachment: fixed;
+}
 
 
 
