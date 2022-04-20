@@ -72,6 +72,27 @@ body{
 
 
 
+.btn{
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.btn:hover{
+    background:#fff;
+    color:black;
+    transition:background-color 1s ease-out;
+    outline:0;
+
+
+}
+.btn:focus{
+    background:#fff;
+    color:black;
+    transition:background-color 1s ease-out;
+    outline:0;
+
+}
 
 
 /*Configuro el Header*/
