@@ -266,12 +266,33 @@ header{
     background-attachment: fixed;
 }
 
+.playlist{
+    background-image: url(../Imagenes/yellow.jpg );
+    background-attachment: fixed;
+}
+
+.VideoAnimado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+    background-image: url(../Imagenes/Sepik.jpg)
+    
+}
 
 
+.VideoAnimado h1{
+    padding: 20px;
+   text-align: center;
+   color: black;
+}
+.VideoAnimado h3{
+    color:black;
+}
 
-
-
-
+    
 
     
 .parrafoQsomos{
