@@ -26,6 +26,13 @@
 
 
 }
+.TituloPortada{
+    text-align: center;
+}
+.parrafoPortada{
+     font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
 
 
 .container-all {
@@ -50,7 +57,19 @@
     padding-top: 0;
     padding-bottom: 220px;
 }
+.container-all-portada{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    padding: 60px;
+    background-color:#d1cfcf ;
+    margin-top: 100px;
+    opacity: 0.9;
+    padding-top: 0;
+    padding-bottom: 220px;
+    background-image: url(../Imagenes/Fondo3.jpg);
 
+}
 
 
 
@@ -68,6 +87,36 @@
 
 
 /*-------------------------------------------------------*/
+
+
+.container{
+    width: 80%;
+    margin:80px auto;
+}
+
+.container   h1{
+text-align: center;
+color: white;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+.feature-img{
+    width:83%;
+    margin:auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
 
 
 .card-body img{
@@ -207,6 +256,9 @@ header{
     background-image: url(../Imagenes/Fondo3.jpg);
     background-attachment: fixed;
 }
+
+
+
 .quienSomos{
     background-image: url(../Imagenes/AzoteaI.jpg);
     background-attachment: fixed;
