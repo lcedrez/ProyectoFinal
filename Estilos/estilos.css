@@ -934,6 +934,7 @@ header{
 .contenedorForm{
     box-shadow: 0 0 20px 0 rgba(255,255,255,.3);
     background: #222222;
+    width:100%;
 
 }
 /*Eligo todos los elementos dentro del contenedor apra darles mismo diseño*/
@@ -1272,6 +1273,8 @@ font-size: 70px;
 
 
 
+
+
 .historia__contenedor p{
     padding: 20px;
     text-align:start;
@@ -1357,25 +1360,10 @@ font-size: 70px;
     }
     
     /*Configuro mi formulario de Contacto*/
-    .contenedorContacto{
-        
-        box-shadow: 0 0 20px 0 rgba(255,255,255,.3);
-    }
-    
-    .contenedorContacto{
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-        padding:1.5em;
-        
-    }
-        
-    
-    
-    
     .contenedorForm{
         box-shadow: 0 0 20px 0 rgba(255,255,255,.3);
         background: #222222;
+        width:100%;
     
     }
     /*Eligo todos los elementos dentro del contenedor apra darles mismo diseño*/
@@ -1428,6 +1416,68 @@ font-size: 70px;
     .contenedorForm p{
         margin: 0;
         padding:2em;
+    }
+    
+    .contenedorForm .areaMensaje{
+    
+        grid-column: 1/3;
+    }
+    
+    .contenedorForm form button{
+        background-color: rgb(175, 241, 88);;
+        color:black;
+        border:0;
+        text-transform: uppercase;
+        padding:1em;
+    }
+    
+    .contenedorForm form button:hover,
+    .contenedorForm form button:focus{
+        background:#fff;
+        color:black;
+        transition:background-color 1s ease-out;
+        outline:0;
+    
+    }
+    
+    .contactInfo{
+        padding-top: 10px;
+        color:black;
+        
+        font-size: medium;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .contactInfo img{
+        width:10px;
+    }
+    
+    
+    /*A todos los elementos de mi contenedor les doy el mismo diseño*/
+    .contenedorForm form button,
+    .contenedorForm form input,
+    .contenedorForm form textarea{
+        width:90%;
+        padding: .4em;
+        border:none;
+        background: none;
+        outline:0;
+        color:#fff;
+        border-bottom: 1px solid rgb(175, 241, 88);;
+    }
+    
+    .contenedorForm form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    
+    }
+    
+    
+    
+    .contenedorForm p{
+        margin: 0;
+        padding:1em;
     }
     
     .contenedorForm .areaMensaje{
@@ -1508,6 +1558,78 @@ font-size: 70px;
         letter-spacing: 2px;
         font-size: x-large;
     }
+
+    
+
+.container-all-hist p{
+    font-family: "Open Sans", sans-serif;
+    font-size: large;
+
+
+}
+.TituloPortada{
+    text-align: center;
+}
+.parrafoPortada{
+     font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+
+.container-all {
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    padding: 60px;
+    background-color:#d1cfcf ;
+    margin-top: 100px;
+    opacity: 0.9;
+}
+
+
+.container-all-hist {
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    padding: 60px;
+    background-color:#d1cfcf ;
+    margin-top: 100px;
+    opacity: 0.9;
+    padding-top: 0;
+    padding-bottom: 220px;
+}
+.container-all-portada{
+  
+    margin:auto;
+    padding: 60px;
+    background-color:#d1cfcf ;
+    margin-top: 100px;
+    opacity: 0.9;
+    padding-top: 0;
+    padding-bottom: 220px;
+    background-image: url(../Imagenes/Fondo3.jpg);
+
+}
+
+.bodyIntegrantes{
+    background-image: url(../Imagenes/BeatlesFondNew.jpg);
+    background-attachment: fixed;
+}
+
+
+
+.container-all img{
+    float:right;
+    max-width:300px;
+    
+}
+
+.container-all p{
+    
+    font-family: "Open Sans", sans-serif;
+}
+
+
 
   
     }
