@@ -35,6 +35,7 @@ a:hover {
 /*--------------------------------------------------------------*/
 #portadaIndex img{
     width: 100%;
+    
 }
 
 #portadaIndex8col img{
@@ -78,6 +79,7 @@ a:hover {
 }
 
 /*-----------------------------------------------------*/
+
 
 
 .imgQS{
@@ -316,7 +318,7 @@ header{
 
 
 .bodyIndex{
-    background-image: url(../Imagenes/beatles-wallpaper-4.jpg);
+    background-color: black ;
     background-attachment: fixed;
    
 }
@@ -354,6 +356,9 @@ header{
     
 }
 
+.TitNoticias{
+    color:black;
+}
 
 .VideoAnimado h1{
     padding: 20px;
