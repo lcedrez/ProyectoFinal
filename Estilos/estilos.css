@@ -431,18 +431,6 @@ header{
     align-items: center;
 }
 
-.historia__parrafo2{   
-    background-image: url(../Imagenes/guitarras.jpg);     
-}
-
-.historia__parrafo2:hover{
-    filter: saturate(180%);
-}
-
-
-
-
-
 main{
     padding-top: 20px;
 }
